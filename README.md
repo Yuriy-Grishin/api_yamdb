@@ -17,26 +17,35 @@
 
 ## Ресурсы API YaMDb
 Ресурс AUTH: аутентификация.
+
 Ресурс USERS: пользователи.
+
 Ресурс TITLES: произведения, к которым пишут отзывы (определённый фильм, книга или песенка).
+
 Ресурс CATEGORIES: категории (типы) произведений («Фильмы», «Книги», «Музыка»).
+
 Ресурс GENRES: жанры произведений. Одно произведение может быть привязано к нескольким жанрам.
+
 Ресурс REVIEWS: отзывы на произведения. Отзыв привязан к определённому произведению.
+
 Ресурс COMMENTS: комментарии к отзывам. Комментарий привязан к определённому отзыву.
 
 ## Стек технологий
-Python
-Django
-Django REST framework
-DRF Simple JWT
+Python;
+Django;
+Django REST framework;
+DRF Simple JWT;
 
 ## Запуск проекта 
 Сначала клонировать репозиторий и перейти в него в командной строке:
 git clone https://github.com/Yuriy-Grishin/api_yamdb
+
 Установите и активируйте виртуальное окружение
 python -m venv venv
 . venv/bin/activate
+
 Установите зависимости из файла requirements.txt
 pip install -r requirements.txt
+
 В папке с файлом manage.py выполните команду:
 python3 manage.py runserver
